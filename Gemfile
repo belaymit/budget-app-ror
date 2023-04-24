@@ -63,3 +63,8 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
+
+# Added devise
+gem 'devise'
+
+gem 'devise-tailwindcssed'
