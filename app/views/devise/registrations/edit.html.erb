@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center justify-center h-screen">
+<div class="flex flex-col items-center justify-center h-screen p-2">
   <h1 class="font-hairline mb-6 text-center">Edit <%= resource_name.to_s.humanize %></h1>
   <%= form_for(resource,
   as: resource_name,
@@ -6,9 +6,8 @@
   data: { turbo: false },
   html: {
     method: :put,
-    lass: "bg-white mb-4 px-8 pt-6 pb-8 rounded shadow-md"
+    lass: "bg-white mb-4 px-8 pt-6 pb-8 rounded shadow-md w-full sm:w-1/2"
     }) do |f| %>
-    <%#= render "devise/shared/error_messages", resource: resource %>
     <%= devise_error_messages! %>
     <div class="mb-4">
       <%= f.label :email,
