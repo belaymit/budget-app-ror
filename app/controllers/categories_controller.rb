@@ -10,6 +10,7 @@ class CategoriesController < ApplicationController
   end
 
   def edit
+    # edit action
   end
 
   def create

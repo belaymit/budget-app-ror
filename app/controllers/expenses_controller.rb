@@ -11,6 +11,7 @@ class ExpensesController < ApplicationController
   end
 
   def edit
+    # edit action
   end
 
   def create

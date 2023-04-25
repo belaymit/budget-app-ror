@@ -69,5 +69,5 @@ gem 'devise'
 
 gem 'devise-tailwindcssed'
 
-#authorization
+# authorization
 gem 'cancancan'
