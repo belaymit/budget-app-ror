@@ -68,3 +68,6 @@ end
 gem 'devise'
 
 gem 'devise-tailwindcssed'
+
+#authorization
+gem 'cancancan'
