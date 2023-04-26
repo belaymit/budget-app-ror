@@ -1,10 +1,10 @@
 databases:
-  - name: budget
+  - name: Budget_App
     ipAllowList: []
 
 services:
   - type: web
-    name: budget
+    name: Budget_App
     plan: free
     env: ruby
     buildCommand: "./bin/render-build.sh"
@@ -14,7 +14,7 @@ services:
         sync: false
       - key: DATABASE_URL
         fromDatabase:
-          name: budget
+          name: Budget_App
           property: connectionString
   - type: redis
     name: redis
