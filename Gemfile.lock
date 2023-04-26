@@ -96,9 +96,6 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-    devise-tailwindcssed (0.1.5)
-      rails (>= 5.2.3.4, < 7.1)
-      railties (> 4.0, < 7.1)
     diff-lcs (1.5.0)
     erubi (1.12.0)
     globalid (1.1.0)
@@ -127,6 +124,7 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_portile2 (2.8.1)
     minitest (5.18.0)
     msgpack (1.7.0)
     net-imap (0.3.4)
@@ -139,12 +137,16 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
+    nokogiri (1.14.3)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     nokogiri (1.14.3-x64-mingw-ucrt)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     parallel (1.23.0)
     parser (3.2.2.1)
       ast (~> 2.4.1)
+    pg (1.5.0)
     pg (1.5.0-x64-mingw-ucrt)
     public_suffix (5.0.1)
     puma (5.6.5)
@@ -232,6 +234,8 @@ GEM
       sprockets (>= 3.0.0)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
+    tailwindcss-rails (2.0.28)
+      railties (>= 6.0.0)
     tailwindcss-rails (2.0.28-x64-mingw-ucrt)
       railties (>= 6.0.0)
     thor (1.2.1)
@@ -266,6 +270,7 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-unknown
 
 DEPENDENCIES
   bootsnap
@@ -273,7 +278,6 @@ DEPENDENCIES
   capybara
   debug
   devise
-  devise-tailwindcssed
   importmap-rails
   jbuilder
   pg (~> 1.1)
