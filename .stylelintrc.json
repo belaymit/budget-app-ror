@@ -6,6 +6,7 @@
       true,
       {
         "ignoreAtRules": [
+          "extends",
           "tailwind",
           "apply",
           "variants",
@@ -28,5 +29,5 @@
     ],
     "csstree/validator": true
   },
-  "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
+  "ignoreFiles": ["build/**", "dist/**","**/tailwind.css", "**/reset*.css", "**/bootstrap*.css"]
 }
