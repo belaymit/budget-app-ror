@@ -8,7 +8,7 @@ RSpec.describe 'Categories', type: :system, js: true do
 
       @category = Category.create(author: @user,
                                   name: 'Electronics',
-                                  icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7plcZojrHGzx4O4dHV-JZcTf3ZgoldM2p9w&usqp=CAU')
+                                  icon: 'https://m.media-amazon.com/images/I/611ovP2GkrL.jpg')
       visit categories_path
     end
 
