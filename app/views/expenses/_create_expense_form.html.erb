@@ -1,6 +1,6 @@
 <%= form_with(model: expense,
  url: "#{action_name == 'edit' ? category_expense_path(@category, expense) : category_expenses_path(@category)}",
-  class: "bg-white mb-4 px-8 pt-6 pb-8 rounded shadow-md border border-[#AF7AC5]") do |form| %>
+  class: "bg-white mb-4 px-8 pt-6 pb-8 rounded shadow-md") do |form| %>
 
 <%= render "shared/form_error_message",
  resource: expense %>
