@@ -16,6 +16,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+- [👥 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -81,7 +82,10 @@
 - Register
 - Login
 - Make new transactions.
-- See the money spent on each category
+- Create Category
+- Edit Category
+- Create Transaction for the category
+- See the total expense spent on each category
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -91,6 +95,10 @@
 <img src="./images/erd_diagram.png" width="500" alt="Schema-diagram">
 <!-- GETTING STARTED -->
 
+## :rocket: Live Demo
+
+- [Here](https://budgte-app.onrender.com/) is the live demo of my project
+- Video description is found [here](https://www.loom.com/share/d389c82a43a148ac9fa4ee1f6cf7692b)
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
@@ -280,7 +288,8 @@ If you like this project please consider starring it
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse Community 
+- I would like to thank Microverse Community 
+- I would like to thank  Gregoire Vella, the original designer of the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
