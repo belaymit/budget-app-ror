@@ -63,7 +63,7 @@ end
 # Added devise
 gem 'devise'
 
-# gem 'devise-tailwindcssed'
+gem 'devise-tailwindcssed'
 
 # authorization
 gem 'cancancan'
