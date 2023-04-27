@@ -93,7 +93,7 @@
 ## :rocket: Live Demo
 
 - [Here](https://budgte-app.onrender.com/) is the live demo of my project
-- Video description is found [here](https://www.loom.com/share/d389c82a43a148ac9fa4ee1f6cf7692b)
+- Video description is found [here](https://www.loom.com/share/6e6958af7a144a05b495f2ad3a045148)
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
@@ -243,8 +243,6 @@ To run tests, run the following command:
   rspec spec/requests/controller_name_spec.rb // to test controllers
   rspec spec/views     // to test views
 ```
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
