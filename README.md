@@ -1,10 +1,5 @@
 <a name="readme-top"></a>
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./images/images.jpg" alt="logo" width="240"  height="auto" />
-  <br/>
-<h3>Blog App</h3>
+<h3>Budget App</h3>
 
 </div>
 
