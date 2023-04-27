@@ -230,7 +230,7 @@ To run tests, run the following command:
 ```sh
   rspec spec/models // to test models
   rspec spec/requests/controller_name_spec.rb // to test controllers
-  rspec spec/views/user // to test views
+  rspec spec/views     // to test views
 ```
 
 
@@ -251,10 +251,9 @@ To run tests, run the following command:
 
 ## FUTURE FEATURES
 
-- Full Blog App
-- Delete Blogs
-- Update Blogs
-- Like and comment on Blogs
+- Sidebar
+- Add More Relations 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
