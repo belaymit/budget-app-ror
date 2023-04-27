@@ -185,13 +185,21 @@ If you can not use WSL then you should follow these steps:
  ```
 To install Rails on Windows, you'll first need to install [Ruby Installer](https://rubyinstaller.org/).
 
-### Installing SQLite3
-You will also need an installation of the SQLite3 database. Many popular UNIX-like OSes ship with an acceptable version of SQLite3. Others can find installation instructions at the [SQLite3 website](https://www.sqlite.org/index.html).
+### Installing PostgreSQL
 
-### Check for your SQLite3 version
+To install PostgreSQL, first refresh your server’s local package index: follows this [link](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart) for detail explanation
 ```sh
-    sqlite3 --version
+    sudo apt update
 ```
+Then, install the Postgres package along with a -contrib package that adds some additional utilities and functionality:
+```sh
+    sudo apt install postgresql postgresql-contrib
+```
+Ensure that the service is started:
+```sh
+  sudo systemctl start postgresql.service
+```
+## Install rails
 To install Rails, use the ``gem install`` command provided by RubyGems:
 ```sh
  gem install rails
