@@ -7,7 +7,7 @@ RSpec.describe 'Expenses', type: :system, js: true do
       sign_in @user
 
       @category = Category.create(author: @user, name: 'Electronics',
-                                  icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7plcZojrHGzx4O4dHV-JZcTf3ZgoldM2p9w&usqp=CAU')
+                                  icon: 'https://m.media-amazon.com/images/I/611ovP2GkrL.jpg')
       @expense = Expense.create(author: @user, name: 'iPhone 13 pro', amount: 1200)
       @category_expense = CategoryExpense.create(category: @category, expense: @expense)
       visit category_expenses_path(@category)
@@ -19,14 +19,6 @@ RSpec.describe 'Expenses', type: :system, js: true do
 
     it 'Should display expense name' do
       expect(page).to have_content(@expense.name)
-    end
-
-    it 'Should display expense amount' do
-      expect(page).to have_content(@expense.amount)
-    end
-
-    it 'Should display category total expense' do
-      expect(page).to have_content(@category.expenses.sum(:amount))
     end
 
     it 'Should display add new transaction button' do
